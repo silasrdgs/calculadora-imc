@@ -5,7 +5,7 @@ body {
     39.31250050663948,
     1
   );
-  background-image: src(/images/backgroundimage.png);
+  background-image: url(../images/backgroundimage.png);
   background-repeat: no-repeat;
   background-position: fixed;
 }
@@ -209,7 +209,7 @@ body {
   left: 32px;
   top: 20px;
   filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.267));
-  background-image: url(/images/weight_FILL0_wght500_GRAD0_opsz40.svg);
+  background-image: url(../images/weight_FILL0_wght500_GRAD0_opsz40.svg);
   background-repeat: no-repeat;
   background-size: cover;
 }
