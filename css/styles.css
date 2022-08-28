@@ -5,7 +5,7 @@ body {
     39.31250050663948,
     1
   );
-  background-image: url(/images/backgroundimage.png);
+  background-image: src(/images/backgroundimage.png);
   background-repeat: no-repeat;
   background-position: fixed;
 }
