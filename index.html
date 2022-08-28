@@ -1,0 +1,53 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora de IMC</title>
+    <meta
+      name="Desenvolvido através do VSCode (código reutilizado de aula do Minicamp Data & Dev"
+    />
+    <meta name="@silasrgds" />
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;0,800;0,900;1,800;1,900&display=swap');
+    </style>
+
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+
+  <body>
+
+    <div class="geral">
+      <div class="e3_14">
+        <div class="e3_34">
+          <div id="sombra_caixa">
+            <div class="e3_16"></div>
+            <div class="e3_21">
+              <span class="e3_20">CALCULADORA DE IMC</span
+              ><span class="e3_22">(ÍNDICE DE MASSA CORPORAL)</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="e3_25">
+          <span class="e3_24">PESO - KG</span>
+          <input class="e3_27" id="input-weight" type="number" value="60" step="0.1" /><br /><br />
+        </div>
+
+        <div class="e3_31">
+          <span class="e3_32">ALTURA - M</span>
+          <input class="e3_33" id="input-height" type="number" value="1.74" step="0.01" />
+        </div>
+        <button class="e1_3" id="button-calculator-imc"><span class="e3_45"></span><span class="e1_2">CALCULAR</span></button>
+      </div>
+      
+        <div class="e3_11">
+          <span class="e3_10">RESULTADO</span>
+          <span class="e3_12" id="imc-result"></span>
+          <span class="e3_13" id="imc-class"></span>
+        </div>
+      </div>
+    </div>
+    <script defer src="./js/script.js"></script>
+  </body>
+</html>
